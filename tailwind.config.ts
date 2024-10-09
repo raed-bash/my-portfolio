@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        main: "#E45155",
       },
     },
     container: {
       center: true,
+      screens: ["1280px"],
     },
   },
   plugins: [],
