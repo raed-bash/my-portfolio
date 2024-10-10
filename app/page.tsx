@@ -1,14 +1,12 @@
 "use client";
 import React from "react";
-import { Header, Navbar } from "./components";
+import { Content, Header } from "./components";
 
 export default function Home() {
   return (
-    <div className="bg-white-900 dark:bg-[#121212] h-screen">
+    <div className="bg-white-900 dark:bg-dark-main h-full">
       <Header />
-      <div className="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[220px]">
-        <Navbar />
-      </div>
+      <Content />
     </div>
   );
 }
