@@ -27,7 +27,7 @@ function Link(props: LinkProps, ref: Ref<HTMLAnchorElement>) {
       ref={ref}
     >
       <span className="text-xl mb-1 size-4">{icon}</span>
-      {props.children}
+      {children}
     </a>
   );
 }
